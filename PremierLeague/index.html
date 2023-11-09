@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Statistics</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Football Team Statistics</h1>
+        <div class="select-container">
+            <label for="season-select">Choose a season:</label>
+            <select id="season-select">
+                <!-- Season options will be populated by app.js -->
+            </select>
+        </div>
+        <div class="select-container">
+            <label for="team-select">Choose a team:</label>
+            <select id="team-select">
+                <!-- Team options will be populated by app.js -->
+            </select>
+        </div>
+        <div id="stats-container">
+            <!-- Statistics will be displayed here by app.js -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
